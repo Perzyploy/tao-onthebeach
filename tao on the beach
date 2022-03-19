@@ -1,0 +1,16 @@
+import turtle
+tao = turtle.Pen()
+screen=turtle.Screen()
+screen.setup(430,330)
+screen.bgpic('beach.gif')
+tao.pensize(4)
+tao.speed(1)
+tao.shape('turtle')
+tao.penup()
+tao.setpos(-10,-20)
+tao.pendown()
+for i in range(8):
+        tao.left(45)
+        tao.forward(20)
+        tao.right(90)
+        tao.forward(20)
